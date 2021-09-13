@@ -6,5 +6,5 @@ Portfólio criado com html do zero, utlizando icons do Bootstrap e [Animate On S
 
 # 😎 My Portfolio:
 Portfolio created with html from scratch, using Bootstrap icons and [Animate On Scroll Library](https://michalsnik.github.io/aos/) by michalsnik
-## You can access the portfolio [by clicking here](https://douglaseduar.github.io/portfolio/)!
+## You can access the portfolio [clicking here](https://douglaseduar.github.io/portfolio/)!
  
