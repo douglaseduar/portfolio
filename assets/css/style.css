@@ -261,6 +261,7 @@ h3 {
     border-radius: 10px;
     opacity: 0;
 }
+/*
 .card:nth-child(1){
     animation: aparecer 1s;
     animation-fill-mode: forwards;
@@ -325,7 +326,7 @@ h3 {
     .card:nth-child(9){
         animation-delay: 8.5s;
     }
-}
+}*/
 
 h5 {
     font-family: 'Poppins', sans-serif;
@@ -610,4 +611,9 @@ footer h6 {
         padding-left: 10px;
         text-align: initial;
     }
+  }
+  .site > h6 {
+      padding-left: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
   }
