@@ -452,8 +452,11 @@ a {
     animation-delay: 1s;
 }
 @media screen and (max-width: 800px) {
-    .arte img {
+    .arte img:nth-child(1) {
         max-width: 300px;
+    }
+    .arte img:nth-child(2){
+        max-width: 200px;
     }
 }
 
