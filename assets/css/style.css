@@ -249,7 +249,7 @@ h3 {
     gap: 1rem;
 }
 .card::after{
-    content:url(/assets/imagens/caret-right-fill.svg);
+    content:url(assets/imagens/caret-right-fill.svg);
     position: absolute;
     margin-left: 300px;
     margin-top: -125px;
