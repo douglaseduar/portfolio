@@ -249,7 +249,7 @@ h3 {
     gap: 1rem;
 }
 .card::after{
-    content:url(assets/imagens/caret-right-fill.svg);
+    content:url(../imagens/caret-right-fill.svg);
     position: absolute;
     margin-left: 300px;
     margin-top: -125px;
@@ -358,13 +358,13 @@ h6 {
     font-size: 20pt;
 }
 .down::after{
-    content:url(assets/imagens/caret-down-fill.svg);
+    content:url(../imagens/caret-down-fill.svg);
     margin-left: 140px;
     margin-top: 18px;
 
 }
 .left::after{
-    content:url(assets/imagens/caret-left-fill.svg);
+    content:url(../imagens/caret-left-fill.svg);
     margin-left: -22px;
 
 }
@@ -453,10 +453,11 @@ a {
 }
 @media screen and (max-width: 800px) {
     .arte img:nth-child(1) {
-        max-width: 300px;
+        max-width: 350px;
     }
     .arte img:nth-child(2){
         max-width: 200px;
+        margin-left: -233px;
     }
 }
 
