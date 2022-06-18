@@ -627,3 +627,8 @@ footer h6 {
       margin-top: 0px;
       margin-bottom: 0px;
   }
+  .ccna{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
