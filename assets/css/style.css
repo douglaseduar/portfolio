@@ -476,7 +476,7 @@ progress {
     height: 20px;
     width: 60%;
   }
-progress:nth-child(12){
+progress:nth-child(14){
     width: 70%;
 }
 .progressos h4 {
@@ -514,7 +514,7 @@ textarea {
     color: white;
 }
 .dosites {
-    height: 500px;
+    height: 820px;
 }
 .social {
     padding-top: 30px;
