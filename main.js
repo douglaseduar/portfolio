@@ -104,15 +104,19 @@ function alterar2(){
 rodar();
 
 async function rodar(){
+    
     for(let i = 0; i < 1500; i++)
     {
+        if(screen.width < 991){
+
+        }else{
         await sleep(10);
         if($('#sites').is(':hover')){
             break
         }
 
          document.querySelector(".sites").scrollTo(i, 0)
-    }
+    }}
     await sleep(100);
     rodar()
     
