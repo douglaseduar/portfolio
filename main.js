@@ -109,9 +109,15 @@ async function rodar(){
     {
         if(screen.width < 991){
             document.querySelector(".arte").removeAttribute('data-aos');
-            document.querySelector(".Words p").style.animation = "testem 6s"
-            document.querySelector(".Words p").style.animationIterationCount = "infinite";
-            document.querySelector(".site > img").style.filter = "grayscale(0%) blur(0px)";
+            let img = document.querySelectorAll(".site > img");
+            let word =  document.querySelectorAll(".Words p");
+            for(let k = 0; k < img.length; k++){
+                img[k].style.filter = "grayscale(0%) blur(0px)";
+            }
+            for(let m = 0; m < word.length; m++){
+                word[m].style.animation = "testem 6s"
+                word[m].style.animationIterationCount = "infinite";
+            }
         }else{
         await sleep(10);
         if($('#sites').is(':hover')){
