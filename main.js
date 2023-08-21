@@ -108,7 +108,10 @@ async function rodar(){
     for(let i = 0; i < 1500; i++)
     {
         if(screen.width < 991){
-
+            document.querySelector(".arte").removeAttribute('data-aos');
+            document.querySelector(".Words p").style.animation = "testem 6s"
+            document.querySelector(".Words p").style.animationIterationCount = "infinite";
+            document.querySelector(".site > img").style.filter = "grayscale(0%) blur(0px)";
         }else{
         await sleep(10);
         if($('#sites').is(':hover')){
@@ -121,3 +124,9 @@ async function rodar(){
     rodar()
     
 }
+
+document.querySelector(".bi-arrow-up-circle-fill").addEventListener("click", inicio)
+
+function inicio(){
+    window.scrollTo(0, 0)
+} 

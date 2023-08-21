@@ -203,7 +203,7 @@ h3 {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    width: 200px;
+    width: 220px;
     height: 50px;
     font-size: 20pt;
     cursor: pointer;
@@ -379,6 +379,15 @@ h3 {
     }
     .flex-containernovo .texto{
         margin-top: 16px!important;
+    }
+    .apresentacao{
+        font-size: 13.5pt!important;
+    }
+    .data{
+        font-size: 10pt!important;
+    }
+    .empresa{
+        font-size: 13pt!important;
     }
 
 }
@@ -777,6 +786,22 @@ footer h6 {
     80%{
         transform: translate3d(0, -73px, 0);
     }100%{
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes testem {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    20%{
+        transform: translate3d(0, -73px, 0);
+    }
+    50%{
+        transform: translate3d(0, -73px, 0);
+    }70%{
+        transform: translate3d(0, 0, 0);
+    }
+    100%{
         transform: translate3d(0, 0, 0);
     }
 }
