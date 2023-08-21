@@ -105,9 +105,8 @@ rodar();
 
 async function rodar(){
     
-    for(let i = 0; i < 1500; i++)
-    {
         if(screen.width < 991){
+            demo()
             document.querySelector(".arte").removeAttribute('data-aos');
             let img = document.querySelectorAll(".site > img");
             let word =  document.querySelectorAll(".Words p");
@@ -119,6 +118,8 @@ async function rodar(){
                 word[m].style.animationIterationCount = "infinite";
             }
         }else{
+            for(let i = 0; i < 1500; i++)
+            {
         await sleep(10);
         if($('#sites').is(':hover')){
             break
