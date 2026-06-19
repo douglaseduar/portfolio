@@ -30,20 +30,20 @@ function sleep(ms) {
 }
 
 async function demo3() {
-    for (let i = 100; i <= 600; i++) {
+    for (let i = 100; i <= 1200; i++) {
         document.querySelector(".artes").textContent = i
         await sleep(2);
     }
 
 }
 async function demo1() {
-    for (let i = 0; i <= 22; i++) {
+    for (let i = 0; i <= 35; i++) {
         document.querySelector(".proje").textContent = i
         await sleep(100);
     }
 }
 async function demo2() {
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i <= 12; i++) {
         document.querySelector(".sitess").textContent = i
         await sleep(200);
     }
