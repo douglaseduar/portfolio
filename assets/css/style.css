@@ -444,7 +444,6 @@ h6 {
     gap: 1rem; 
     display: flex;
     padding: 5px;
-    overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
     -ms-scroll-snap-type: x mandatory;
